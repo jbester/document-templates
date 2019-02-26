@@ -55,7 +55,7 @@ This paragraph shall identify the required external interfaces of the CSCI (that
 This paragraph (beginning with 3.3.2) shall identify a CSCI external interface by project-unique identifier, shall briefly identify the interfacing entities, and shall be divided into subparagraphs as needed to state the requirements imposed on the CSCI to achieve the interface. Interface characteristics of the other entities involved in the interface shall be stated as assumptions or as "When [the entity not covered] does this, the CSCI shall...," not as requirements on the other entities. This paragraph may reference other documents (such as data dictionaries, standards for communication protocols, and standards for user interfaces) in place of stating the information here. The requirements shall include the following, as applicable, presented in any order suited to the requirements, and shall note any differences in these characteristics from the point of view of the interfacing entities (such as different expectations about the size, frequency, or other characteristics of data elements):
 
  1.	Priority that the CSCI must assign the interface
- 2.	Requirements on the type of interface (such as real-time data transfer, storage-andretrieval of data, etc.) to be implemented
+ 2.	Requirements on the type of interface (such as real-time data transfer, storage-and-retrieval of data, etc.) to be implemented
  3.	Required characteristics of individual data elements that the CSCI must provide, store, send, access, receive, etc., such as:
      1. Names/identifiers
          * Project-unique identifier
