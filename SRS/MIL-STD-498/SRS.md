@@ -57,50 +57,50 @@ This paragraph (beginning with 3.3.2) shall identify a CSCI external interface b
  1.	Priority that the CSCI must assign the interface
  2.	Requirements on the type of interface (such as real-time data transfer, storage-andretrieval of data, etc.) to be implemented
  3.	Required characteristics of individual data elements that the CSCI must provide, store, send, access, receive, etc., such as:
-       1. Names/identifiers
+     1. Names/identifiers
          * Project-unique identifier
          * Non-technical (natural-language) name
          * DoD standard data element name
          * Technical name (e.g., variable or field name in code or database)
          * Abbreviation or synonymous names
-       2. Data type (alphanumeric, integer, etc.) 
-       3. Size and format (such as length and punctuation of a character string)
-       4. Units of measurement (such as meters, dollars, nanoseconds)
-       5. Range or enumeration of possible values (such as 0-99)
-       6. Accuracy (how correct) and precision (number of significant digits)
-       7. Priority, timing, frequency, volume, sequencing, and other constraints, such as whether the data element may be updated and whether business rules apply
-       8. Security and privacy constraints
-       9. Sources (setting/sending entities) and recipients (using/receiving entities)
+     2. Data type (alphanumeric, integer, etc.) 
+     3. Size and format (such as length and punctuation of a character string)
+     4. Units of measurement (such as meters, dollars, nanoseconds)
+     5. Range or enumeration of possible values (such as 0-99)
+     6. Accuracy (how correct) and precision (number of significant digits)
+     7. Priority, timing, frequency, volume, sequencing, and other constraints, such as whether the data element may be updated and whether business rules apply
+     8. Security and privacy constraints
+     9. Sources (setting/sending entities) and recipients (using/receiving entities)
  4.	Required characteristics of data element assemblies (records, messages, files, arrays, displays, reports, etc.) that the CSCI must provide, store, send, access, receive, etc., such as:
-       1.	Names/identifiers
+     1.	Names/identifiers
          * Project-unique identifier
          * Non-technical (natural-language) name
          * DoD standard data element name
          * Technical name (e.g., variable or field name in code or database)
          * Abbreviation or synonymous names
-       2. Data elements in the assembly and their structure (number, order, grouping)
-       3. Medium (such as disk) and structure of data elements/assemblies on the medium
-       4. Visual and auditory characteristics of displays and other outputs (such as colors, layouts, fonts, icons and other display elements, beeps, lights)
-       5. Relationships among assemblies, such as sorting/access characteristics
-       6. Priority, timing, frequency, volume, sequencing, and other constraints, such as whether the assembly may be updated and whether business rules apply
-       7. Security and privacy constraints
-       8. Sources (setting/sending entities) and recipients (using/receiving entities)
+     2. Data elements in the assembly and their structure (number, order, grouping)
+     3. Medium (such as disk) and structure of data elements/assemblies on the medium
+     4. Visual and auditory characteristics of displays and other outputs (such as colors, layouts, fonts, icons and other display elements, beeps, lights)
+     5. Relationships among assemblies, such as sorting/access characteristics
+     6. Priority, timing, frequency, volume, sequencing, and other constraints, such as whether the assembly may be updated and whether business rules apply
+     7. Security and privacy constraints
+     8. Sources (setting/sending entities) and recipients (using/receiving entities)
  5.	Required characteristics of communication methods that the CSCI must use for the interface, such as:
-       1. Project-unique identifier(s)
-       2. Communication links/bands/frequencies/media and their characteristics
-       3. Message formatting
-       4. Flow control (such as sequence numbering and buffer allocation)
-       5. Data transfer rate, whether periodic/aperiodic, and interval between transfers
-       6. Routing, addressing, and naming conventions
-       7. Transmission services, including priority and grade
-       8. Safety/security/privacy considerations, such as encryption, user authentication, compartmentalization, and auditing
+     1. Project-unique identifier(s)
+     2. Communication links/bands/frequencies/media and their characteristics
+     3. Message formatting
+     4. Flow control (such as sequence numbering and buffer allocation)
+     5. Data transfer rate, whether periodic/aperiodic, and interval between transfers
+     6. Routing, addressing, and naming conventions
+     7. Transmission services, including priority and grade
+     8. Safety/security/privacy considerations, such as encryption, user authentication, compartmentalization, and auditing
  6.	Required characteristics of protocols the CSCI must use for the interface, such as:
-       1. Project-unique identifier(s)
-       2. Priority/layer of the protocol
-       3. Packeting, including fragmentation and reassembly, routing, and addressing
-       4. Legality checks, error control, and recovery procedures
-       5. Synchronization, including connection establishment, maintenance, termination
-       6. Status, identification, and any other reporting features
+     1. Project-unique identifier(s)
+     2. Priority/layer of the protocol
+     3. Packeting, including fragmentation and reassembly, routing, and addressing
+     4. Legality checks, error control, and recovery procedures
+     5. Synchronization, including connection establishment, maintenance, termination
+     6. Status, identification, and any other reporting features
  7.	Other required characteristics, such as physical compatibility of the interfacing entities (dimensions, tolerances, loads, plug compatibility, etc.), voltages, etc.  
 
 CSCI internal interface requirements
